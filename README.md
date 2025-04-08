@@ -163,7 +163,7 @@ Summative_event-locator/
 ├── controllers/        # Route controllers
 ├── models/             # Database models
 ├── routes/             # API routes
-├── services/           # Business logic and services
+├── consumers/          # Processing messages 
 ├── config/             # Configuration files (e.g., database, i18n)
 ├── tests/              # Unit test         
 ├── locales/            # Translation files for i18n
@@ -186,7 +186,7 @@ Summative_event-locator/
 
 ## Contributors
 
-- **Your Name** - [GitHub Profile](https://github.com/your-username)
+- **Debby** - [GitHub Profile](https://github.com/your-username)
 
 Feel free to contribute to this project by submitting issues or pull requests!
 
@@ -197,11 +197,3 @@ Feel free to contribute to this project by submitting issues or pull requests!
 This project is licensed under the MIT License. See the LICENSE file for details.
 ```
 
-### Notes:
-- Replace placeholders like `your-username` and `LICENSE` with actual values.
-- Add more details to the API Endpoints section if needed.
-- Ensure the setup instructions match your actual project configuration.
-### Notes:
-- Replace placeholders like `your-username` and `LICENSE` with actual values.
-- Add more details to the API Endpoints section if needed.
-- Ensure the setup instructions match your actual project configuration.
