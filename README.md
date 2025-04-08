@@ -1,4 +1,4 @@
-![Screenshot 2025-04-03 233445](https://github.com/user-attachments/assets/62534479-a311-4241-875b-a1b50fd04cfb)# Event Locator Application
+# Event Locator Application
 
 The **Event Locator Application** is a multi-user backend application built with Node.js. It allows users to discover events based on their location and preferences. The application supports multilingual functionality, geospatial data handling, and asynchronous notifications, making it a robust and scalable solution for event management.
 
