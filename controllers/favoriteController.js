@@ -1,4 +1,4 @@
-const pool = require('../config/db');
+const pool = require('../config/database');
 
 exports.addFavorite = async (req, res) => {
     const { userId, eventId } = req.body;
