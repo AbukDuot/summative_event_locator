@@ -1,0 +1,8 @@
+{
+    "welcome": "Willkommen bei der API des Event-Lokalisierungs-Tools",
+    "event_created": "Ereignis erfolgreich erstellt",
+    "event_not_found": "Ereignis nicht gefunden",
+    "missing_fields": "Erforderliche Felder fehlen",
+    "categories_required": "Kategoriefeld ist erforderlich"
+  }
+  
