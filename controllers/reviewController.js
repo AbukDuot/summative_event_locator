@@ -1,4 +1,4 @@
-const pool = require('../config/database.js');
+const pool = require('../config/database');
 
 exports.createReview = async (req, res) => {
     const { userId, eventId, rating, review } = req.body;
