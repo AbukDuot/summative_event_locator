@@ -3,9 +3,9 @@ POST http://localhost:5000/api/users/register
 Content-Type: application/json
 
 {
-  "username": "Chol",
-  "email": "chol@example.com",
-  "password": "securePassword123",
+  "username": "David",
+  "email": "david@example.com",
+  "password": "david2023",
   "location": {
     "type": "Point",
     "coordinates": [40.7128, -74.0060]
@@ -19,8 +19,8 @@ POST http://localhost:5000/api/users/login
 Content-Type: application/json
 
 {
-  "email": "chol@example.com",
-  "password": "securePassword123"
+  "email": "david@example.com",
+  "password": "david2023"
 }
 
 
@@ -29,8 +29,8 @@ POST http://localhost:5000/api/events
 Content-Type: application/json
 
 {
-  "name": "Conference",
-  "description": "Tech conference",
+  "name": "Tech Conference",
+  "description": "Tech Conference",
   "latitude": 37.7749,
   "longitude": -122.4194,
   "event_date": "2025-05-10T12:00:00Z",
@@ -42,7 +42,7 @@ Content-Type: application/json
 
 
 ### Get All events
-GET http://localhost:5000/api/events/search/location?latitude=37.7749&longitude= -122.4194&radius=5000
+GET http://localhost:5000/api/events/search/category?category=Sports
 Authorization: Bearer 
 
 ###
@@ -59,7 +59,7 @@ Content-Type: application/json
 Authorization: Bearer <jwt_token>
 
 {
-  "name": "Tech Conference 2025",
+  "name": "Workshop 2026",
   "description": "Updated tech conference with new speakers and sessions",
   "latitude": 37.7749,
   "longitude": -122.4194,
@@ -71,5 +71,5 @@ Authorization: Bearer <jwt_token>
 ###
 
 ### Delete an event
-DELETE http://localhost:5000/api/events/2
+DELETE http://localhost:5000/api/events/1
 Authorization: Bearer <jwt_token>
