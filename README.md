@@ -196,4 +196,11 @@ Feel free to contribute to this project by submitting issues or pull requests!
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 ```
-
+### Notes:
+- Replace placeholders like `your-username` and `LICENSE` with actual values.
+- Add more details to the API Endpoints section if needed.
+- Ensure the setup instructions match your actual project configuration.
+### Notes:
+- Replace placeholders like `your-username` and `LICENSE` with actual values.
+- Add more details to the API Endpoints section if needed.
+- Ensure the setup instructions match your actual project configuration.
