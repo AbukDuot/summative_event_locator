@@ -86,12 +86,18 @@ The **Event Locator Application** is a multi-user backend application built with
   npm run migrate
      ```
 
-5. Start the application:
+5. Start Redis server (if not already running:
+```bash
+redis-server
+
+   ```
+
+6. Start the application:
 ```bash
    npm start
    ```
 
-6. Run tests:
+7. Run tests:
  ```bash
    npm test
    ```
